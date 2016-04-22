@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         MainTask task = new MainTask();
         task.execute(url);
         Log.i("dasda", "test@@@@@@@@@@@@@@@@@@@@2");
+        Log.i("xiufu", "xiufu1.0");
     }
 
     class MainTask extends AsyncTask<String, Void, List<StuData>> {
