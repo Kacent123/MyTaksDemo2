@@ -1,0 +1,10 @@
+diff a/app/src/main/java/com/example/kacent/mytaksdemo2/MainActivity.java b/app/src/main/java/com/example/kacent/mytaksdemo2/MainActivity.java	(rejected hunks)
+@@ -30,6 +30,8 @@
+         MainTask task = new MainTask();
+         task.execute(url);
+ 
++        Log.i("tag", "test1~~~~~~~~~~~~~~~~~~~~~~");
++
+     }
+ 
+     class MainTask extends AsyncTask<String, Void, List<StuData>> {
