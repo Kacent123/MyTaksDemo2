@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.listView);
         MainTask task = new MainTask();
         task.execute(url);
-
+        Log.i("dasda", "test@@@@@@@@@@@@@@@@@@@@2");
     }
 
     class MainTask extends AsyncTask<String, Void, List<StuData>> {
